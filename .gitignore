@@ -1,0 +1,40 @@
+# ---- Python / build ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# ---- Envs ----
+.venv/
+venv/
+.env
+.env.*
+
+# ---- Editors ----
+.vscode/
+.idea/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Data / Models / Cache ----
+models/
+qdrant_storage/
+*.sqlite
+*.db
+
+# ---- Logs, reports, artifacts ----
+logs/
+*.log
+
+# ---- HuggingFace / Torch cache ----
+~/.cache/huggingface/
+~/.cache/torch/
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- Docker local overrides (if any) ----
+docker-compose.override.yml
